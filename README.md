@@ -10,7 +10,7 @@ Beacon Books là một phần mềm quản lý thư viện đa dụng, thân thi
 - [Về đồ họa của game:](#về-đồ-họa-của-game)
 - [Về source code game](#về-source-code-game)
 
-# 0. Sign in Sign up
+# 0. Sign in/Sign up
 
 ## a. Cách 1: Không bao gồm code.
 
