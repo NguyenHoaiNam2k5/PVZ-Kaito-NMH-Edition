@@ -5,7 +5,6 @@ Beacon Books là một phần mềm quản lý thư viện đa dụng, thân thi
 - [0. Sign in/Sign up](#0-sign-in-sign-up)
 - [1. Giao diện admin](#1-giao-diện-admin)
 - [2. Giao diện reader](#2-giao-diện-reader)
-- [Về đồ họa của game:](#về-đồ-họa-của-game)
 - [Về source code game](#về-source-code-game)
 
 # 0. Sign in/ Sign up
@@ -85,44 +84,35 @@ Tương tự như Admin
 
 - Người dùng có thể bấm vào tài liệu để xem thông tin chi tiết và tiến hành trả sách
   ![Screenshot 2024-12-01 175721](https://github.com/user-attachments/assets/8d322a92-8e76-434e-9192-1708ab497cdf)
-### Về source code game:
+# Về source code:
+## Package configs
+Class DatabaseConfig dùng để thiết lập kết nối cơ sở dữ liệu cho ứng dụng. Nó sử dụng HikariCP để quản lý kết nối cơ sở dữ liệu một cách hiệu quả và cung cấp các beans để thực hiện các thao tác với cơ sở dữ liệu.
+## Package controllers
+## Package core
+## Package documents
+Quản lý các đối tượng documents và các đối tượng liên quan: author và comment.
+- Class Author: Quản lý các đối tượng author.
+- Class Comment: Quản lý các đối tượng comment.
+- Class Document: Quản lý chung các đối tượng document.
+- Class Book: Kế thừa từ class Document, quản lý các đối tượng Book, lấy Book từ Google API qua hàm "fetchBookInfoFromGoogle".
+- Class Thesis: Kế thừa từ class Document, quản lý các đối tượng Thesis.
+- Class BorrowedDocument: Quản lý các document đang được mượn.
+- Class DocumentBuilder: Là một abstract class phục vụ cho Builder design pattern.
+- Class BookBuilder: Kế thừa từ class DocumentBuilder, là builder cho các đối tượng Book.
+- Class ThesisBuilder: Kế thừa từ class DocumentBuilder, là builder cho các đối tượng Thesis.
+## Package exceptions
+## Package repositories
+## Package search
+## Package tests
+Chứa các file JUnit Test để test các phương thức trong các class Account, Author, Book, BorrowedDocument, StringMatcher.
+## Package users
+- Class Account: Quản lý tài khoản của các User.
+- Class User: Là một abstract class, quản lý chung các đối tượng User (Admin và Reader).
+- Class Reader: Kế thừa từ class User, quản lý các đối tượng Reader.
+- Class Administrator: Kế thừa từ class User, quản lý các đối tượng Admin.
+- Class UserBuilder: Là một abstract class phục vụ cho Builder design pattern.
+- Class ReaderBuilder: Kế thừa từ class UserBuilder, là builder cho các đối tượng Reader.
+- Class AdministratorBuilder: Kế thừa từ class UserBuilder, là builder cho các đối tượng Admin.
+## Package utils
 
-- Folder draw:
-    * khởi tạo window và renderer
-    * chứa tất cả các ảnh trong game (được đánh số)
-    * chứa hầu hết các câu lệnh của SDL2, SDL2_image, SDL2_ttf, sử dụng để vẽ load ảnh, chữ và vẽ lên renderer, window.
-- Folder elements: Chứa tất cả các thành phần của game:
-    * bullets: các loại đạn
-    * button: các loại nút trong game (có thể nhấn được hoặc không)
-    * Map: chứa hàm random và khởi tạo bảng 5 x 9 cho màn chơi.
-    * mower: máy cắt cỏ (Cán zombie)
-    * plants: chứa tất cả các loại plant (được kế thừa từ class Plants)
-    * zombies: chứa tất cả các loại zombies (được kế thừa từ class Zombie)
-    * elements: gom lại các loại plants và zombies.
-    * elements_actions:
-        + chứa hầu hết các tương tác giữa các thành phần game với nhau, và với màn chơi.
-        + tạo ngẫu nhiên zombie
-        + cập nhật tất cả các thay đổi của game theo từng khung hình
-- Folder events: Xử lý các sự kiện trong game (sự kiện chuột, bàn phím)
-    * in_game: xử lý các sự kiện khi đang trong một màn chơi
-        + credit: phần giới thiệu các loại zombie & ready-set-plant
-        + game: tất cả các sự kiện trong một màn chơi
-        + lose: xử lý khi thua
-        + main_menu: xử lý khi người chơi muốn trở lại phần chọn màn chơi
-        + pause_menu: xử lý khi người chơi dừng game (nút dừng hoặc click ra ngoài game)
-        + restart_menu: xử lý khi người chơi muốn chơi lại màn chơi
-        + turbo: xử lý nút tăng tốc game
-        + volume: xử lý nút điều chỉnh âm lượng nhạc nền và hiệu ứng.
-        + win: xử lý khi chiến thắng trò chơi.
-    * mouse_cursor: xử lý con trỏ chuột
-    * out_game: xử lý các sự kiện ngoài màn chơi
-        + choose_level: xử lý chọn màn chơi
-        + quit_menu: xử lý nút quit game: tắt game
-        + reset_level: xử lý nút reset level: xóa tiến trình chơi
-        + start_game: xử lý nút "Click to start" để bắt đầu vào game.
-        + unlock_plant: xử lý mở khóa plant mới.
-- Folder level: xử lý phần lấy dữ liệu ván chơi.
-- Folder music: xử lý phần âm thanh của game - SDL2_mixer
-- Folder player: xử lý phần dữ liệu người chơi. Bao gồm việc lấy và thay đổi tên, tiến trình.
-- game_stats.hpp: chứa tất cả thông số game
-- game.hpp và game.cpp: hàm main() của trò chơi.
+
