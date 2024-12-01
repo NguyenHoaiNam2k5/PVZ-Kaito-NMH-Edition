@@ -1,5 +1,3 @@
-[[English]](README_en.md)
-
 # Beacon Books
 
 # Giới thiệu phần mềm
@@ -12,11 +10,22 @@ Beacon Books là một phần mềm quản lý thư viện đa dụng, thân thi
 
 # 0. Sign in/ Sign up
 
+![Screenshot 2024-12-01 095927](https://github.com/user-attachments/assets/3f6ce940-542b-4346-9083-33f5b37a2f0f)
 
+## a. Sign in
+- Nếu bạn đã có tài khoản, hãy nhập username và password sau đó nhấn ![Screenshot 2024-12-01 161816](https://github.com/user-attachments/assets/80cf79cf-032f-4383-9164-61f3ed0f1328)
+- Nếu username và password đúng, bạn sẽ đăng nhập được vào Beacon Books.
+- Nếu username và password chưa chính xác, hệ thống sẽ thông báo và bạn vui lòng kiểm tra lại username và password rồi tiến hành đăng nhập lại.
+  ![Screenshot 2024-12-01 161846](https://github.com/user-attachments/assets/12a4e1ce-5878-44a3-bedb-de578efa2b93)
+
+
+## b.Sign up
+- 
 
 
 # 1. Giao diện admin
-
+## a.Dashboard
+## b. Resource
 
 
 # 2. Giao diện reader
