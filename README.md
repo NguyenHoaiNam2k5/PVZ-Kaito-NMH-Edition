@@ -13,21 +13,58 @@ Beacon Books là một phần mềm quản lý thư viện đa dụng, thân thi
 ![Screenshot 2024-12-01 095927](https://github.com/user-attachments/assets/3f6ce940-542b-4346-9083-33f5b37a2f0f)
 
 ## a. Sign in
-- Nếu bạn đã có tài khoản, hãy nhập username và password sau đó nhấn ![Screenshot 2024-12-01 161816](https://github.com/user-attachments/assets/80cf79cf-032f-4383-9164-61f3ed0f1328)
+![Screenshot 2024-12-01 162419](https://github.com/user-attachments/assets/dc400eda-e37e-4c6a-9f43-0f5d21414a45)
+- Nếu bạn đã có tài khoản, hãy nhập username và password sau đó nhấn "Sign in"
 - Nếu username và password đúng, bạn sẽ đăng nhập được vào Beacon Books.
 - Nếu username và password chưa chính xác, hệ thống sẽ thông báo và bạn vui lòng kiểm tra lại username và password rồi tiến hành đăng nhập lại.
   ![Screenshot 2024-12-01 161846](https://github.com/user-attachments/assets/12a4e1ce-5878-44a3-bedb-de578efa2b93)
 
 
 ## b.Sign up
-- 
+- Nếu bạn chưa có tài khoản, chọn "Sign up" để tạo tài khoản mới.
+  ![Screenshot 2024-12-01 162736](https://github.com/user-attachments/assets/b7af070c-6bbe-4daf-b3cf-2e5810d89d8e)
+- Nhập name, username và password bạn muốn.
+- Nếu password bạn nhập có ít hơn 8 kí tự, hệ thống sẽ báo lỗi, bạn phải nhập lại 1 password có đủ 8 kí tự.
+  ![Screenshot 2024-12-01 164026](https://github.com/user-attachments/assets/5eaffd2a-254b-420a-a6b4-ed95df0b9028)
+- Nếu username bạn nhập đã được sử dụng, hệ thống cũng sẽ báo lỗi, bạn phải nhập lại 1 username khác.
+![Screenshot 2024-12-01 164153](https://github.com/user-attachments/assets/4f172672-7f5f-4b9b-a79f-3fd59444b79e)
+- Sau khi Sign up thành công, hệ thống sẽ đưa bạn quay lại giao diện ban đầu để Sign in.
 
 
 # 1. Giao diện admin
-## a.Dashboard
-## b. Resource
+## a. Search
+![Screenshot 2024-12-01 165812](https://github.com/user-attachments/assets/ebb2b669-56b2-4a09-90f2-cea8fd27cb3c)
+- Có 3 tiêu chí để Search: Title, Authors, PublishYear.
+- Bạn có thể chọn Search theo 1, 2 hoặc cả 3 tiêu chí.
+## b. DASHBOARD
+## c. RESOURCE
 
 
+- Filter: Bạn có thể lọc tài liệu thông qua filter: Book / Thesis
+  ![Screenshot 2024-12-01 171706](https://github.com/user-attachments/assets/a1909013-f1f1-499c-98a9-41d013db4ed3)
+- Xem Description bằng cách bấm vào bìa sách
+  ![Screenshot 2024-12-01 171843](https://github.com/user-attachments/assets/97a1f469-675e-4259-81f6-057937155842)
+- Bấm vào tên cuốn sách để xem các thông tin chi tiết
+  ![Screenshot 2024-12-01 172002](https://github.com/user-attachments/assets/a67c9bf6-afba-4647-afed-4700aff27247)
+- Ngoài ra, bạn còn có thể sửa và xóa tài liệu nếu muốn
+  ![Screenshot 2024-12-01 172123](https://github.com/user-attachments/assets/2dc1ab56-ad97-4b0f-82f7-a3d9e30c8b87)
+- Bạn còn có thể đọc comment, đánh giá của mọi người về tài liệu đó và tự viết comment, đáng giá của chính mình.
+  ![Screenshot 2024-12-01 172336](https://github.com/user-attachments/assets/9227f82a-540f-497e-b9d2-d2e03789b884)
+
+## d. ADD DOCUMENT
+
+
+
+## e. MANAGE USER
+
+![Screenshot 2024-12-01 172631](https://github.com/user-attachments/assets/1bc7e9ef-9968-418c-a89b-0bcc1364b2fa)
+
+- Filter: Bạn có thể lọc người dùng thông qua filter: Admin / Reader.
+  ![Screenshot 2024-12-01 172752](https://github.com/user-attachments/assets/7201e842-1f29-4bfe-9219-200b9fa929ac)
+- Add user: Bạn có thể thêm user bằng tài khoản admin (tài khoản admin chỉ có thể được tạo từ 1 tài khoản admin khác).
+  ![Screenshot 2024-12-01 172918](https://github.com/user-attachments/assets/a0d6fced-b03c-4f81-b0e9-e9ddbb2ff72b)
+- Xem thông tin của các user đã có: Admin có quyền xem thông tin về các user khác khi bấm vào tài khoản của họ trong danh sách user.
+  ![Screenshot 2024-12-01 173433](https://github.com/user-attachments/assets/23c6e3d9-7244-4da5-958b-cdd0eb75e068)
 # 2. Giao diện reader
 
 Có tổng cộng 12 level với mức độ khó dễ khác nhau để bạn chơi. Khi di chuột lên 1 level, level đó sẽ phát sáng. Chỉ cần
