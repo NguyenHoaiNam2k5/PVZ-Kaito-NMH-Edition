@@ -5,74 +5,16 @@
 # Giới thiệu phần mềm
 Beacon Books là một phần mềm quản lý thư viện đa dụng, thân thiện với người dùng. Phần mềm được thiết kế để hỗ trợ việc tổ chức, quản lý và vận hành các thư viện; hơn thế nữa, Beacon Books cũng giúp đỡ người dùng mượn, trả sách dễ dàng và nhanh chóng hơn.
 - [0. Sign in/Sign up](#0-sign-in-sign-up)
-- [1. Giao diện admin](#1bắt-đầu-game)
-- [2. Giao diện reader](#2chọn-level)
+- [1. Giao diện admin](#1-giao-dien-admin)
+- [2. Giao diện reader](#2-giao-dien-reader)
 - [Về đồ họa của game:](#về-đồ-họa-của-game)
 - [Về source code game](#về-source-code-game)
 
 # 0. Sign in/ Sign up
 
-## a. Cách 1: Không bao gồm code.
+# 1. Giao diện admin
 
-Tải game (được nén thành .zip) tại link
-sau: https://github.com/nmhienbn/PVZ-Kaito-NMH-Edition/releases/tag/published<br/>
-Cách này tiết kiệm bộ nhớ và thời gian tải đi rất nhiều (khoảng 103MB).<br/>
-Giải nén game vào một thư mục và bật pvz.exe lên và chơi.<br/>
-
-## b. Cách 2: Bao gồm code và có thể biên dịch.
-
-**Bước 1:** Clone repo này về (Khoảng 800 MB - do có cả lịch sử các phiên bản). <br/>
-Hoặc Chọn Code -> Download Zip (Khoảng 90MB)
-
-![image](resources/preview/download.png)
-
-- Tất cả code đều nằm trong thư mục src.<br/>
-- Có thể nhảy đến bước 5 để chơi luôn.
-
-**Bước 2:** Cài mingw. Ở đây tôi cài đặt phiên bản MinGW-W64
-GCC-8.1.0 [x86_64-posix-seh](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/8.1.0/threads-posix/seh/x86_64-8.1.0-release-posix-seh-rt_v6-rev0.7z/download).<br/>
-Một số chú ý: <br/>
-
-- Nếu sử dụng trình biên dịch khác thì phải dịch lại icon: vào thư mục icon rồi dùng
-  lệnh `windres main.rc -O coff main.res` trong cmd.<br/>
-- Phải xóa ba dll của c++ trong thư mục chứa pvz.exe: `libgcc_s_seh-1.dll`, `libstdc++-6.dll`, `libwinpthread-1.dll`. Ba
-  dll này chỉ dành cho người chơi không cài sẵn c++ trong máy.
-
-**Bước 3:** Cài GNU make
-
-**Bước 4:** Mở cmd trong thư mục chứa Makefile và gõ lệnh make.
-
-**Bước 5:** Bật pvz.exe và chơi
-
-# 1. Bắt đầu game
-
-Chờ một chút rồi click vào nút “CLICK TO START!” để bắt đầu chơi game.
-<div style="text-align: center;">
-
-![ezgif com-video-to-gif](resources/preview/loading.gif)
-
-</div>
-
-
-Khi vào game lần đầu, người chơi hãy nhập tên mình để bắt đầu trò chơi. Sau đó click “OK” hoặc nhấn phím Enter để tiếp
-tục.
-
-<div style="text-align: center;">
-
-![image](resources/preview/name.png)
-
-</div>
-
-
-
-Và người chơi sẽ ngay lập tức nhận được 1 cây đầu tiên - Peashooter
-<div style="text-align: center;">
-
-![image](resources/preview/first_plant.png)
-
-</div>
-
-# 2. Chọn level
+# 2. Giao diện reader
 
 Có tổng cộng 12 level với mức độ khó dễ khác nhau để bạn chơi. Khi di chuột lên 1 level, level đó sẽ phát sáng. Chỉ cần
 click chuột để chơi level đó.
