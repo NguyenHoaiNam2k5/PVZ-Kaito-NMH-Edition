@@ -13,7 +13,9 @@ Beacon Books là một phần mềm quản lý thư viện đa dụng, thân thi
 ![Screenshot 2024-12-01 095927](https://github.com/user-attachments/assets/3f6ce940-542b-4346-9083-33f5b37a2f0f)
 
 ## a. Sign in
-            ![Screenshot 2024-12-01 162419](https://github.com/user-attachments/assets/dc400eda-e37e-4c6a-9f43-0f5d21414a45)
+
+![Screenshot 2024-12-01 162419](https://github.com/user-attachments/assets/1e2cc66f-ae9f-4764-bbbc-7c25aa957a39)
+
 - Nếu bạn đã có tài khoản, hãy nhập username và password sau đó nhấn "Sign in"
 - Nếu username và password đúng, bạn sẽ đăng nhập được vào Beacon Books.
 - Nếu username và password chưa chính xác, hệ thống sẽ thông báo và bạn vui lòng kiểm tra lại username và password rồi tiến hành đăng nhập lại.
@@ -32,7 +34,7 @@ Beacon Books là một phần mềm quản lý thư viện đa dụng, thân thi
 
 
 # 1. Giao diện admin
-## a. Search
+## a. SEARCH
 ![Screenshot 2024-12-01 165812](https://github.com/user-attachments/assets/ebb2b669-56b2-4a09-90f2-cea8fd27cb3c)
 - Có 3 tiêu chí để Search: Title, Authors, PublishYear.
 - Bạn có thể chọn Search theo 1, 2 hoặc cả 3 tiêu chí.
@@ -67,160 +69,22 @@ Beacon Books là một phần mềm quản lý thư viện đa dụng, thân thi
   ![Screenshot 2024-12-01 173433](https://github.com/user-attachments/assets/23c6e3d9-7244-4da5-958b-cdd0eb75e068)
 # 2. Giao diện reader
 
-Có tổng cộng 12 level với mức độ khó dễ khác nhau để bạn chơi. Khi di chuột lên 1 level, level đó sẽ phát sáng. Chỉ cần
-click chuột để chơi level đó.
-<div style="text-align: center;">
-
-![image](resources/preview/choose_level.png)
-</div>
+## a. SEARCH
+Tương tự như Admin
+## b. DASHBOARD
+## c. RESOURCE
 
 
-Tuy nhiên khi mới bắt đầu, bạn chỉ mở được 1 level. Chiến thắng lần lượt từng level để mở khóa và chơi level tiếp theo:
-<div style="text-align: center;">
-
-![image](resources/preview/choose_level1.png)
-</div>
-
-
-Ngoài ra còn có 3 nút chức năng khác để người chơi đổi tên, đóng game hay thậm chí là reset lại tiến trình của game để
-trải nghiệm game lại từ đầu.
-
-<div style="text-align: center;">
-
-![image](resources/preview/choose_level2.png)
-</div>
+- Reader vẫn có thể filter; xem Description, thông tin chi tiết; viết và xem các comment, đánh giá như Admin.
+- Reader có thể mượn tài liệu theo các thời hạn đăng kí trước: 7 days, 14 days, 21 days
+  ![Screenshot 2024-12-01 175631](https://github.com/user-attachments/assets/be2cec8d-027b-437d-b04a-426407decf69)
+## d. MY READ DOCS
+- Hiển thị những tài liệu mà reader đã mượn.
 
 
 
-Khi vào game, có 2 loại level mà mọi người sẽ gặp: buổi sáng (bên trái) và buổi tối (bên phải)
-<div style="text-align: center;">
-
-![image](resources/preview/levels.png)
-</div>
-
-- Buổi sáng thì thi thoảng sẽ có sun (mặt trời) từ trên trời rơi xuống.
-- Còn buổi tối thì không có, vậy nên game sẽ khó hơn một chút.
-
-Trước khi bắt đầu game, bạn sẽ được biết trước có những loại zombie gì sẽ xuất hiện.
-<div style="text-align: center;">
-
-![image](resources/preview/credit.png)
-</div>
-
-# 3. Các thành phần trong game:
-
--    Sun (Mặt trời) ![image](resources/preview/sun.png)
-     : là đơn vị để mua plant (cây) trong game. Nhấp vào để thu. Và nên chú ý là nếu một sun tồn tại quá lâu, nó sẽ mờ
-     dần rồi biến mất. Bạn sẽ không thể thu chúng sau khi chúng đã biến mất.
-
--    Sun bar (Thanh mặt trời) ![image](resources/preview/sun_bar.png)
-     : là bảng đếm số mặt trời mà người chơi đang có
-
-- Plant seeds: tất cả các giống cây là người chơi đang sở hữu. Để chọn một giống cây mang đi trồng, người chơi phải
-  click vào plant seed hoặc nhấn phím 1, 2, 3, 4, 5 (như trong game đánh dấu) để chọn cây rồi trồng trên sân. Tất nhiên,
-  bạn phải đủ sun để mua cây và plant seed phải có thời gian chờ khác nhau để trồng cây giống đó lần nữa.
-
-<div style="text-align: center;">
-
-![image](resources/preview/plant_seed.png)
-</div>
-
-- Shovel (Xẻng): Là vật dụng vô cùng hữu hiệu để bạn có thể đào đi những cây không cần thiết và thay vào đó cây mới.
-
-<div style="text-align: center;">
-
-![image](resources/preview/shovel.png)
-</div>
-
-- Thanh tiến trình game (progress bar): Là thanh bạn có thể theo dõi để xem còn bao nhiêu zombie tiếp theo sẽ ra hay bạn
-  đã chơi được bao nhiêu phần của level. Bên trái sẽ là level hiện tại bạn đang chơi.
-
-<div style="text-align: center;">
-
-![image](resources/preview/progress_bar.png)
-</div>
-
-- Nút tua nhanh game (Turbo button): Nếu thấy game quá chậm hay quá dễ mà bạn cần tiết kiệm thời gian, hãy nhấn nút để
-  trải nghiệm game với tốc độ x2 tốc độ gốc.
-- Và nếu thấy game quá đáng sợ ở tốc độ này, hãy nhấn lại để game trở về tốc độ bình thường.
-  ● Game ở tốc độ ban đầu:  ![image](resources/preview/faster.png)
-
-● Game đang ở tốc độ nhanh gấp 2 ban đầu:  ![image](resources/preview/faster_triggered.png)
-
-- Nút dừng game (Pause Button): Bạn có việc cần dừng game để lúc sau chơi tiếp ư? Hay bạn muốn điều chỉnh âm lượng của
-  nhạc nền và hiệu ứng âm thanh? Quá đơn giản, game có thể dừng lại bằng cách click ![image](resources/preview/pause.png)  hoặc
-  click đâu đó bên ngoài game.
-- Máy cắt cỏ (Mower): Nếu bạn để zombie lại quá gần nhà, máy cắt cỏ sẽ tự động kích hoạt và tiêu diệt tất cả zombie hiện
-  tại đang ở hàng đó. Chú ý là mỗi hàng chỉ có một máy cắt cỏ thôi.
-
-<div style="text-align: center;">
-
-![image](resources/preview/mower.png)
-</div>
-
-- Bố cục game cơ bản:
-
-<div style="text-align: center;">
-
-![image](resources/preview/game.png)
-</div>
-
- 
-
-# 4. Cách chơi
-
-Trồng cây để tấn công và phòng thủ, không cho zombie bước vào nhà bạn.<br/>
-Để trồng cây, Chọn hạt giống của cây đó (bàn phím hoặc click chuột) rồi đặt vào ô muốn trồng. <br/>
-Có thể đào những cây đang sử dụng bằng xẻng.<br/>
-Cây sẽ bị zombie ăn mất.
-
-## a. Các loại cây
-
-Có 6 loại cây, lần lượt theo thứ tự có thể nhận được trong game là:
-
-|                                                                             | Tên cây	     | Chức năng                                                                                                                    |
-|-----------------------------------------------------------------------------|--------------|------------------------------------------------------------------------------------------------------------------------------|
-| <img src="resources/images/Plant_sheet/peashooter/Peashooter.png" width=50>  | Peashooter	  | Mỗi lần bắn một đậu vào zombie.                                                                                              |
-| <img src="resources/images/Plant_sheet/sunflower/Sunflower.png" width=44>    | Sunflower	   | Tạo thêm mặt trời để trồng cây                                                                                               |
-| <img src="resources/images/Plant_sheet/walnut/Walnut.png" width=42>          | Wall-nut	    | Chịu được nhiều phát ăn của zombie để bảo vệ các cây khác.                                                                   |
-| <img src="resources/images/Plant_sheet/snowpea/SnowPea.png" width=52>        | Snow Pea	    | Mỗi lần bắn một đậu băng vào zombie. Đậu băng không tăng sát thương nhưng làm chậm tốc độ di chuyển và tốc độ ăn của zombie. |
-| <img src="resources/images/Plant_sheet/potatomine/Potato_Mine.png" width=56> | Potato Mine  | Tiêu diệt zombie khi chạm nó nhưng cần thời gian để kích hoạt.                                                               |
-| <img src="resources/images/Plant_sheet/cherrybomb/Cherrybomb.png" width=48>  | Cherry Bomb	 | Ngay lập tức tiêu diệt tất cả zombie trong khu vực 3x3.                                                                      |
-
-## b. Các loại zombie
-
-- Có 5 loại zombie:
-
-|                                         | Tên zombie 	       | Chức năng                                                                                        |
-|-----------------------------------------|--------------------|--------------------------------------------------------------------------------------------------|
-| ![image](resources/images/Choose_level/normal.png) | Browncoat Zombie	  | Ăn cây và não của bạn.                                                                           |
-| ![image](resources/images/Choose_level/flag.png)   | Flag Zombie	       | Báo hiệu một lượng lớn zombie đang chuẩn bị ra.                                                  |
-| ![image](resources/images/Choose_level/cone.png)   | Conehead Zombie	   | Trâu gấp 3 lần zombie thường                                                                     |
-| ![image](resources/images/Choose_level/bucket.png) | Buckethead Zombie	 | Trâu gấp 6.5 lần zombie thường                                                                   |
-| ![image](resources/images/Choose_level/door.png)   | Door Zombie	       | Trâu gấp 6.5 lần zombie thường. Không bị ảnh hưởng bởi sự làm chậm của đạn băng nếu vẫn còn cửa. |
-
-# 5. Chiến thắng và thất bại
-
-- Bạn sẽ chiến thắng nếu tiêu diệt hết tất cả zombie trong ván đó.
-
-<div style="text-align: center;">
-
-![image](resources/preview/win.png)
-</div>
-
-- Bạn sẽ thất bại nếu có một zombie nào đó đi hết sân để vào nhà bạn.
-
-<div style="text-align: center;">
-
-![image](resources/preview/lose.png)
-</div>
-
----
-
-### Về đồ họa của game:
-
-[[Cách làm hiệu ứng từng cây, zombie trong game]](about_graphics.md)
-
+- Người dùng có thể bấm vào tài liệu để xem thông tin chi tiết và tiến hành trả sách
+  ![Screenshot 2024-12-01 175721](https://github.com/user-attachments/assets/8d322a92-8e76-434e-9192-1708ab497cdf)
 ### Về source code game:
 
 - Folder draw:
