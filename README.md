@@ -4,7 +4,7 @@
 
 # Giới thiệu phần mềm
 Beacon Books là một phần mềm quản lý thư viện đa dụng, thân thiện với người dùng. Phần mềm được thiết kế để hỗ trợ việc tổ chức, quản lý và vận hành các thư viện; hơn thế nữa, Beacon Books cũng giúp đỡ người dùng mượn, trả sách dễ dàng và nhanh chóng hơn.
-- [0. Log in/Sign up](#0Log-in-/-Sign-up)
+- [0. Log in/Sign up](#0Log-in-Sign-up)
 - [1. Giao diện admin](#1bắt-đầu-game)
 - [2. Giao diện reader](#2chọn-level)
 - [Về đồ họa của game:](#về-đồ-họa-của-game)
