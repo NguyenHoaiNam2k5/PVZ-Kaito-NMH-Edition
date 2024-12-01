@@ -1,30 +1,16 @@
 [[English]](README_en.md)
 
-# Plants Versus Zombie - Kaito-NMH-Edition
+# Beacon Books
 
-- Thử nghiệm game: [https://youtu.be/EyTwTOWr5zU](https://youtu.be/EziCb7U9UbU)
-- Phá đảo game: https://youtu.be/0RQHeCaz4sg
-
-# Giới thiệu game
-
-Plants versus Zombie là 1 game thuộc thể loại tower defense. Đắm mình vào cuộc chiến giữa cây cối và zombie, bạn hãy cố
-gắng hết sức để bảo vệ ngôi nhà của mình chỉ bằng những loại cây cối kì dị. Trồng cây và thu hoạch ngay kết quả là việc
-tiêu diệt các loại zombie đang bao vây ngôi nhà.
-
-- [0. Cách tải game](#0-cách-tải-game)
-    * [a. Cách 1: Không bao gồm code.](#a-cách-1-không-bao-gồm-code)
-    * [b. Cách 2: Bao gồm code và có thể biên dịch.](#b-cách-2-bao-gồm-code-và-có-thể-biên-dịch)
-- [1. Bắt đầu game](#1bắt-đầu-game)
-- [2. Chọn level](#2chọn-level)
-- [3. Các thành phần trong game:](#3-các-thành-phần-trong-game)
-- [4. Cách chơi](#4-cách-chơi)
-    * [a. Các loại cây](#acác-loại-cây)
-    * [b. Các loại zombie](#bcác-loại-zombie)
-- [5. Chiến thắng và thất bại](#5-chiến-thắng-và-thất-bại)
+# Giới thiệu phần mềm
+Beacon Books là một phần mềm quản lý thư viện đa dụng, thân thiện với người dùng. Phần mềm được thiết kế để hỗ trợ việc tổ chức, quản lý và vận hành các thư viện; hơn thế nữa, Beacon Books cũng giúp đỡ người dùng mượn, trả sách dễ dàng và nhanh chóng hơn.
+- [0. Log in/Sign up](#0-log-in-sign-up)
+- [1. Giao diện admin](#1bắt-đầu-game)
+- [2. Giao diện reader](#2chọn-level)
 - [Về đồ họa của game:](#về-đồ-họa-của-game)
 - [Về source code game](#về-source-code-game)
 
-# 0. Cách tải game
+# 0. Log in/Sign up
 
 ## a. Cách 1: Không bao gồm code.
 
