@@ -13,7 +13,7 @@ Beacon Books là một phần mềm quản lý thư viện đa dụng, thân thi
 ![Screenshot 2024-12-01 095927](https://github.com/user-attachments/assets/3f6ce940-542b-4346-9083-33f5b37a2f0f)
 
 ## a. Sign in
-![Screenshot 2024-12-01 162419](https://github.com/user-attachments/assets/dc400eda-e37e-4c6a-9f43-0f5d21414a45)
+            ![Screenshot 2024-12-01 162419](https://github.com/user-attachments/assets/dc400eda-e37e-4c6a-9f43-0f5d21414a45)
 - Nếu bạn đã có tài khoản, hãy nhập username và password sau đó nhấn "Sign in"
 - Nếu username và password đúng, bạn sẽ đăng nhập được vào Beacon Books.
 - Nếu username và password chưa chính xác, hệ thống sẽ thông báo và bạn vui lòng kiểm tra lại username và password rồi tiến hành đăng nhập lại.
@@ -43,7 +43,7 @@ Beacon Books là một phần mềm quản lý thư viện đa dụng, thân thi
 - Filter: Bạn có thể lọc tài liệu thông qua filter: Book / Thesis
   ![Screenshot 2024-12-01 171706](https://github.com/user-attachments/assets/a1909013-f1f1-499c-98a9-41d013db4ed3)
 - Xem Description bằng cách bấm vào bìa sách
-  ![Screenshot 2024-12-01 171843](https://github.com/user-attachments/assets/97a1f469-675e-4259-81f6-057937155842)
+            ![Screenshot 2024-12-01 171843](https://github.com/user-attachments/assets/97a1f469-675e-4259-81f6-057937155842)
 - Bấm vào tên cuốn sách để xem các thông tin chi tiết
   ![Screenshot 2024-12-01 172002](https://github.com/user-attachments/assets/a67c9bf6-afba-4647-afed-4700aff27247)
 - Ngoài ra, bạn còn có thể sửa và xóa tài liệu nếu muốn
