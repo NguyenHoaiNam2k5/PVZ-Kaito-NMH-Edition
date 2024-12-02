@@ -9,7 +9,8 @@ Beacon Books là một phần mềm quản lý thư viện đa dụng, thân thi
 
 # 0. Sign in/ Sign up
 
-![Screenshot 2024-12-01 095927](https://github.com/user-attachments/assets/3f6ce940-542b-4346-9083-33f5b37a2f0f)
+![Screenshot 2024-12-02 145133](https://github.com/user-attachments/assets/4dfa4d02-4c03-4cf1-ae50-7bd5078c6c81)
+
 
 ## a. Sign in
 
