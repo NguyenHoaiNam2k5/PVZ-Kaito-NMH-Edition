@@ -5,7 +5,7 @@ Beacon Books là một phần mềm quản lý thư viện đa dụng, thân thi
 - [0. Sign in/Sign up](#0-sign-in-sign-up)
 - [1. Giao diện admin](#1-giao-diện-admin)
 - [2. Giao diện reader](#2-giao-diện-reader)
-- [Về source code game](#về-source-code-game)
+- [Về source code](#về-source-code)
 
 # 0. Sign in/ Sign up
 
@@ -13,7 +13,7 @@ Beacon Books là một phần mềm quản lý thư viện đa dụng, thân thi
 
 ## a. Sign in
 
-![Screenshot 2024-12-01 162419](https://github.com/user-attachments/assets/1e2cc66f-ae9f-4764-bbbc-7c25aa957a39)
+![Screenshot 2024-12-02 143007](https://github.com/user-attachments/assets/0d5c4fb8-60c9-4108-b27e-be8130a00b44)
 
 - Nếu bạn đã có tài khoản, hãy nhập username và password sau đó nhấn "Sign in"
 - Nếu username và password đúng, bạn sẽ đăng nhập được vào Beacon Books.
@@ -31,14 +31,20 @@ Beacon Books là một phần mềm quản lý thư viện đa dụng, thân thi
 ![Screenshot 2024-12-01 164153](https://github.com/user-attachments/assets/4f172672-7f5f-4b9b-a79f-3fd59444b79e)
 - Sau khi Sign up thành công, hệ thống sẽ đưa bạn quay lại giao diện ban đầu để Sign in.
 
-
 # 1. Giao diện admin
 ## a. SEARCH
-![Screenshot 2024-12-01 165812](https://github.com/user-attachments/assets/ebb2b669-56b2-4a09-90f2-cea8fd27cb3c)
-- Có 3 tiêu chí để Search: Title, Authors, PublishYear.
-- Bạn có thể chọn Search theo 1, 2 hoặc cả 3 tiêu chí.
+![Screenshot 2024-12-02 143547](https://github.com/user-attachments/assets/936b4b66-a92a-4d81-9b3d-2b39a73b6d77)
+
+- Có 3 chế độ search: Fuzzy search, Contains search, Exact search.
+- Có thể search theo các tiêu chí: title, author, publish year.
+
 ## b. DASHBOARD
+![Screenshot 2024-12-02 143245](https://github.com/user-attachments/assets/54f73a9e-3114-402d-8a23-e5d508807f00)
+
+Thống kê các số liệu về Document của toàn thư viện.
 ## c. RESOURCE
+
+![Screenshot 2024-12-02 144108](https://github.com/user-attachments/assets/749bd0d5-8d2a-4822-9db6-31fa6b2a3da6)
 
 
 - Filter: Bạn có thể lọc tài liệu thông qua filter: Book / Thesis
@@ -54,7 +60,11 @@ Beacon Books là một phần mềm quản lý thư viện đa dụng, thân thi
 
 ## d. ADD DOCUMENT
 
+![Screenshot 2024-12-02 144428](https://github.com/user-attachments/assets/6be5d591-2383-4629-8a60-95c426093318)
 
+- Có 2 cách thêm dữ liệu: 
+  + Nhập các trường dữ liệu và nhấn "ADD" để thêm Document.
+  + Nhập ISBN và sử dụng Google API để lấy các dữ liệu về Document sau đó "ADD".
 
 ## e. MANAGE USER
 
@@ -71,7 +81,10 @@ Beacon Books là một phần mềm quản lý thư viện đa dụng, thân thi
 ## a. SEARCH
 Tương tự như Admin
 ## b. DASHBOARD
+Tương tự như Admin
 ## c. RESOURCE
+
+![Screenshot 2024-12-02 145018](https://github.com/user-attachments/assets/c0aab1ad-2e32-49a7-bde1-451d0d9c85ff)
 
 
 - Reader vẫn có thể filter; xem Description, thông tin chi tiết; viết và xem các comment, đánh giá như Admin.
