@@ -88,7 +88,14 @@ Tương tự như Admin
 ## Package configs
 Class DatabaseConfig dùng để thiết lập kết nối cơ sở dữ liệu cho ứng dụng. Nó sử dụng HikariCP để quản lý kết nối cơ sở dữ liệu một cách hiệu quả và cung cấp các beans để thực hiện các thao tác với cơ sở dữ liệu.
 ## Package controllers
+![Screenshot 2024-12-02 134604](https://github.com/user-attachments/assets/46000648-57b5-4bf2-b9ce-a513af223971)
+
 ## Package core
+Class Library là một singleton cốt lõi phục vụ cho hệ thống quản lý thư viện với các chức năng:
+- Quản lý tài liệu: addDocument, updateDocument, deleteDocument.
+- Quản lý bình luận: addComment, deletaComment.
+- Quản lý người dùng: updatePassword, updateUserInfomation, deleteUser, authenticateUser.
+- Hệ thống mượn trả sách: lendDocument, retrieveDocument.
 ## Package documents
 Quản lý các đối tượng documents và các đối tượng liên quan: author và comment.
 - Class Author: Quản lý các đối tượng author.
@@ -101,8 +108,15 @@ Quản lý các đối tượng documents và các đối tượng liên quan: a
 - Class BookBuilder: Kế thừa từ class DocumentBuilder, là builder cho các đối tượng Book.
 - Class ThesisBuilder: Kế thừa từ class DocumentBuilder, là builder cho các đối tượng Thesis.
 ## Package exceptions
+![Screenshot 2024-12-02 134713](https://github.com/user-attachments/assets/95ee34e3-f8ea-476b-9837-a974159f8a22)
+
 ## Package repositories
+Tạo các truy vấn và lấy dữ liệu từ database.
+## Package services
+- Class JdbcDocumentService: Chứa các hàm để sửa các dữ liệu của Document.
+- Class JdbcUserService: Chứa các hàm để sửa các dữ liệu của User.
 ## Package search
+Chứa các hàm để thực hiện chức năng tìm kiếm Document.
 ## Package tests
 Chứa các file JUnit Test để test các phương thức trong các class Account, Author, Book, BorrowedDocument, StringMatcher.
 ## Package users
@@ -113,6 +127,5 @@ Chứa các file JUnit Test để test các phương thức trong các class Acc
 - Class UserBuilder: Là một abstract class phục vụ cho Builder design pattern.
 - Class ReaderBuilder: Kế thừa từ class UserBuilder, là builder cho các đối tượng Reader.
 - Class AdministratorBuilder: Kế thừa từ class UserBuilder, là builder cho các đối tượng Admin.
-## Package utils
 
 
